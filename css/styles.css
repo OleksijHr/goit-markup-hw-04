@@ -246,9 +246,9 @@ margin-left: auto;
     gap: 16px;
 }
 
-.social-link-item>link:hover,
-.social-link-item>link:focus{
-    background-color: var(--primary-focus-hover-clr);
+.social-link-item.footer-link>link:hover,
+.social-link-item.footer-link>link:focus{
+    background-color: var(--success-clr);
 }
 
 
@@ -480,9 +480,14 @@ margin-left: auto;
     gap: 24px;
 }
 
+.social-link-item>link:hover,
+.social-link-item>link:focus {
+    background-color: var(--primary-focus-hover-clr);
+}
+
 .social-link-item{
-    /* width: 40px; */
-    /* height: 40px; */
+    width: 40px;
+    height: 40px;
 }
 
 /* .social-link-item:not(:last-child){
