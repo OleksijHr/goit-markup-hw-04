@@ -26,6 +26,7 @@ html{
     /* fonts */
     --primary-font-size: 16px;
     --primary-line-height: 1.5;
+    --primary-border-radius: 4px;
 }
 
 body {
@@ -315,8 +316,20 @@ margin-left: auto;
     width: calc((100%-72px)/4);
 }
 
-.features-icon{
+.icon-box{
+    margin-bottom: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+
+    border-radius: var(--primary-border-radius);
+
     background-color: var(--lingt-bg-clr);
+}
+
+.features-icon{
 }
 
 .features-name{
@@ -398,6 +411,11 @@ margin-left: auto;
 .team-item{
     width: calc((100%-72px)/4);
 
+    border-radius: 0px 0px var(--primary-border-radius) var(--primary-border-radius);
+    box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08),
+    0 1px 1px rgba(46, 47, 66, 0.16),
+    0 1px 6px rgba(46, 47, 66, 0.08);
+
     background-color: inherit;
 }
 /* 
@@ -405,16 +423,21 @@ margin-left: auto;
     margin-right: 24px;
 } */
 
-.team-pearson{
-    margin-bottom: 32px;
+.person-img{
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
+
+/* .team-pearson{
+    margin-bottom: 32px;
+} */
 
 .info{
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px var(--primary-border-radius) var(--primary-border-radius);
     border: 1px solid var(--accent-clr);
     border-top: none;
 
