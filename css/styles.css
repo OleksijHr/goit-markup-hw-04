@@ -200,10 +200,7 @@ margin-left: auto;
 .footer>.container{
     display: flex;
     align-items: baseline;
-}
-
-.footer-box{
-    margin-right: 120px;
+    gap: 120px;
 }
 
 .footer-logo {
@@ -237,7 +234,7 @@ margin-left: auto;
 .social-media-text{
     margin-bottom: 16px;
     
-    width: 500;
+    font-weight: 500;
     font-size: var(--primary-font-size);
     line-height: var(--primary-line-height);
     letter-spacing: 0.02em;
@@ -245,7 +242,7 @@ margin-left: auto;
     color: var(--primary-inverted-text-clr);
 }
 
-.social-link-list{
+.social-link-list.footer-link{
     gap: 16px;
 }
 
@@ -434,8 +431,7 @@ margin-left: auto;
 } */
 
 .person-img{
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 0;
 }
 
 /* .team-pearson{
@@ -485,8 +481,8 @@ margin-left: auto;
 }
 
 .social-link-item{
-    width: 40px;
-    height: 40px;
+    /* width: 40px; */
+    /* height: 40px; */
 }
 
 /* .social-link-item:not(:last-child){
