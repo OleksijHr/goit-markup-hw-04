@@ -430,7 +430,7 @@ margin-left: auto;
     margin-right: 24px;
 } */
 
-.person-img{
+.team-item>.person-img{
     padding-top: 32px;
     padding-bottom: 32px;
 }
