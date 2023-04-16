@@ -248,7 +248,7 @@ margin-left: auto;
 
 .social-link-item.footer-link>link:hover,
 .social-link-item.footer-link>link:focus{
-    background-color: var(--success-clr);
+    background-color: #31D0AA;
 }
 
 
