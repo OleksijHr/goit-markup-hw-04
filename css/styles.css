@@ -246,8 +246,8 @@ margin-left: auto;
     gap: 16px;
 }
 
-.social-link-item.footer-link>.link:hover,
-.social-link-item.footer-link>.link:focus{
+.social-link-item.footer-link-item>.link:hover,
+.social-link-item.footer-link-item>.link:focus{
     background-color: var(--success-clr);
 }
 
