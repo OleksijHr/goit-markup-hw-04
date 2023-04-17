@@ -425,19 +425,11 @@ margin-left: auto;
 
     background-color: inherit;
 }
-/* 
-.team-item:not(:last-child) {
-    margin-right: 24px;
-} */
 
 .person-img{
     padding-top: 32px;
     padding-bottom: 32px;
 }
-
-/* .team-pearson{
-    margin-bottom: 32px;
-} */
 
 .info{
     padding-top: 32px;
