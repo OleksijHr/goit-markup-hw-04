@@ -119,6 +119,12 @@ img {
     background-color: var(--primary-focus-hover-clr);
 }
 
+.social-link-item>.link>.social-link{
+    fill: var(--secondary--inverted-text-clr);
+    color: inherit;
+
+}
+
 /* header */
 .page-header {
     border-bottom: 1px solid var(--accent-clr);
