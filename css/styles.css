@@ -108,12 +108,16 @@ img {
     overflow: hidden;
 }
 
-.social-link-icon {
-    width: 16px;
-    height: 16px;
+.social-link-item>.link{
+    fill: var(--primary-brand-clr);
+    background-color: var(--primary-brand-clr);
 }
 
-
+.social-link-item>.link:hover,
+.social-link-item>.link:focus {
+    fill: currentColor;
+    background-color: var(--primary-focus-hover-clr);
+}
 
 /* header */
 .page-header {
@@ -281,6 +285,7 @@ img {
 
 .social-link-item.footer-link-item>.link:hover,
 .social-link-item.footer-link-item>.link:focus {
+    fill: var(--success-clr);
     background-color: var(--success-clr);
 }
 
@@ -504,11 +509,6 @@ img {
     gap: 24px;
 }
 
-.social-link-item>link:hover,
-.social-link-item>link:focus {
-    background-color: var(--primary-focus-hover-clr);
-}
-
 .social-link-item {
     width: 40px;
     height: 40px;
@@ -522,20 +522,11 @@ img {
     display: flex;
     width: 100%;
     height: 100%;
-    background-color: var(--primary-brand-clr);
     border-radius: 50%;
     align-items: center;
     justify-content: center;
 }
 
-.social-link-item>.link:hover,
-.social-link-item>.link:focus {
-    background-color: var(--primary-focus-hover-clr);
-}
-
-.social-link {
-    fill: var(--lingt-bg-clr);
-}
 
 /* Customers */
 
