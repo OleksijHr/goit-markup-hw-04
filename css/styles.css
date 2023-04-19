@@ -480,6 +480,9 @@ img {
     padding-bottom: 32px;
     padding-left: 16px;
     padding-right: 16px;
+
+    border: 1px solid var(--accent-clr);
+    border-top: none;
 }
 
 .surename {
